@@ -75,12 +75,4 @@ describe('QA Webchat Page', () => {
     it('should verify a different Gandalf line does not appear', () => {
         verifyNotBilboText()
     })
-
-    
-
-
-
-
-
-
 })
