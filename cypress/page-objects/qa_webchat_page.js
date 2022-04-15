@@ -83,7 +83,6 @@ export function clickOnLocationItem() {
       .find('button')
       .eq(1)
       .click()
-
 }
 
 export function verifySendMessageForm() {
@@ -103,7 +102,6 @@ export function typeName() {
       .find("#Name")
       .click()
       .type('Carlos')
-
 }
 
 export function typeMobilePhone() {
@@ -112,8 +110,7 @@ export function typeMobilePhone() {
       .iframe('#podium-modal')
       .find('[id="Mobile Phone"]')
       .click()
-      .type('12345678910')
-    
+      .type('12345678910')   
 }
 
 export function typeMessage() {
@@ -133,7 +130,6 @@ export function clickSend() {
       .iframe('#podium-modal')
       .find('button[class="SendButton SendButton--valid"]')
       .click()
-
 }
 
 export function verifyConfirmationMessage() {
@@ -143,7 +139,6 @@ export function verifyConfirmationMessage() {
       .iframe('#podium-modal')
       .find('div[class="SendSmsPage__FormContainer"]')
       .should("exist")
-
 }
 
 
