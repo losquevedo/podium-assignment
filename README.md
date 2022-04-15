@@ -4,7 +4,7 @@ This test suite is created to test the core functionality of Podium's user messa
 Thanks so much for reviewing my code! I learned a lot from it.
 
 ## Test Case Prioritization Breakdown ##
---:Smoke:--
+**Smoke**
 - Verify Gandalf Text (from Chapter 2 of Fellowship/Moria sequence in the movies)
 - Verify Image URL Lodaed
 - Verify Messaging Icon is Present
@@ -13,7 +13,7 @@ Thanks so much for reviewing my code! I learned a lot from it.
 - Verify Length of Location list
 - Verify User can click on the link, type name, phone Number, and message, hit send, and message will send
 
---:Regression:--
+**Regression**
 - Verify Gandalf Text
 - Verify Gandalf Text is NOT the text from his passage re: Bilbo's Pity and Gollum (also from Chapter 2 of Fellowship/Moria sequence in the movies)
 - Verify URL Image does NOT link to the Cult of the Party Parrot Website
