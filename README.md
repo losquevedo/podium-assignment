@@ -26,7 +26,7 @@ Thanks so much for reviewing my code! I learned a lot from it.
 
 
 ## Bugs Found
-** Only 3 Locations Showed Up When Looking at The Location Selector **
+1. Only 3 Locations Showed Up When Looking at The Location Selector **
     - ### Repro Steps: 
         - Load Page
         - Tap on Podium Messaging Icon
@@ -38,7 +38,7 @@ Thanks so much for reviewing my code! I learned a lot from it.
       ### Frequency
        - Consistent
 
-** Podium Button and Prompt do not show up in the same place **
+2. Podium Button and Prompt do not show up in the same place **
     - ### Repro Steps: 
         - Load Page
         - Verify Podium Button and Prompt Position
@@ -50,7 +50,7 @@ Thanks so much for reviewing my code! I learned a lot from it.
       ### Frequency
        - Inconsistent
 
-** Podium Button and Prompt Switches Colors and Image **
+3. Podium Button and Prompt Switches Colors and Image **
     - ### Repro Steps: 
         - Load Page
         - Verify Podium Button and Prompt Color (Red or Purple)
@@ -65,7 +65,7 @@ Thanks so much for reviewing my code! I learned a lot from it.
       ### Frequency
        - Inconsistent
 
-** Successive runs did not delete the previous message sent **
+4. Successive runs did not delete the previous message sent **
     - ### Repro Steps: 
         - Go to Message Form and Type a message, press send
         - Reload page and go back again
