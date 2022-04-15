@@ -1,5 +1,5 @@
 # Summary 
-This test suite is created to test the core functionality of Podium's user messaging app. It contains 11 tests (9 Positive and a 2 Negative cases) and also included a Docker File to build from.
+This test suite is created to test the core functionality of Podium's user messaging app. It contains 11 tests (9 Positive and a 2 Negative cases) and also included a Docker File to build from. The suite should take around 67 seconds to complete.
 
 It's structured using the Page Object Model, the page objects file can be found  in cypress/page-objects.
 

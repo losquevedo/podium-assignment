@@ -22,12 +22,12 @@ export function verifyNotPartyParrotURL() {
 }
 
 export function verifyGandalfText() {
-    cy.get('h1') //ideally this would have a class associated with it
+    cy.get('h1') //ideally this would have a  or id associated with it
     .should('have.text', 'All we have to decide is what to do with the time that is given us.')
 }
 
 export function verifyNotBilboText() {
-    cy.get('h1') //ideally this would have a class associated with it
+    cy.get('h1') 
     .should('not.have.text', "Pity? It's a pity that stayed Bilbo's hand.")
 }
 
@@ -47,7 +47,7 @@ export function clickOnPodiumBubble() {
 }
 
 export function verifyLocationSelectorPresent() {
-    //cy.wait(3000)
+    cy.wait(3000)
     cy.frameLoaded('#podium-modal')
     cy.iframe('#podium-modal').find('.LocationSelector').should('be.visible')
 }
@@ -67,7 +67,7 @@ export function verifyTermsAndConditions() {
 }
 
 export function verifyLocationsListItems() {
-    cy.wait(3000) //Adding extra wait since
+    cy.wait(3000) //Adding extra waits here since the i-frame refreshes/loads for a bit
     cy.frameLoaded('#podium-modal')
     cy
       .iframe('#podium-modal')
@@ -76,7 +76,7 @@ export function verifyLocationsListItems() {
 }
 
 export function clickOnLocationItem() {
-    cy.wait(3000) //Adding extra wait since
+    cy.wait(3000)
     cy.frameLoaded('#podium-modal')
     cy
       .iframe('#podium-modal')
@@ -95,7 +95,6 @@ export function verifySendMessageForm() {
 }
 
 export function typeName() {
-    //cy.wait(3000) //Adding extra wait since
     cy.frameLoaded('#podium-modal')
     cy
       .iframe('#podium-modal')
@@ -125,7 +124,6 @@ export function typeMessage() {
 
 export function clickSend() {
     cy.frameLoaded('#podium-modal')
-    cy.wait(5000)
     cy
       .iframe('#podium-modal')
       .find('button[class="SendButton SendButton--valid"]')
@@ -133,7 +131,7 @@ export function clickSend() {
 }
 
 export function verifyConfirmationMessage() {
-    cy.wait(2000) //Adding extra wait since
+    cy.wait(2000)
     cy.frameLoaded('#podium-modal')
     cy
       .iframe('#podium-modal')
