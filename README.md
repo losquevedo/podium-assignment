@@ -3,7 +3,7 @@ This test suite is created to test the core functionality of Podium's user messa
 
 Thanks so much for reviewing my code! I learned a lot from it.
 
-## Prioritization Breakdown ##
+## Test Case Prioritization Breakdown ##
 --:Smoke:--
 - Verify Gandalf Text (from Chapter 2 of Fellowship/Moria sequence in the movies)
 - Verify Image URL Lodaed
