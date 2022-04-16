@@ -9,6 +9,7 @@ describe('QA Webchat Page', () => {
     })
 
     afterEach(() => {
+        //Adding explicitely since Cypress didn't seem to be clearing these
         cy.clearLocalStorage()
         cy.clearCookies()
     })
@@ -57,9 +58,8 @@ describe('QA Webchat Page', () => {
         verifySendMessageForm()
     })
 
-    //Potential Bug found, cache/cookies are not cleared on successive runs without killing the cypress runner
+    //Potential Bug found, cache/cookies are not cleared on successive runs without killing the cypress runner, added to afterEach()
     it('types a name, phone number, and message and hits send', () => {
-        cy.clearLocalStorage() //Attempting to remove
         clickOnPodiumBubble()
         verifyLocationSelectorPresent()
         clickOnLocationItem()
