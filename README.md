@@ -75,6 +75,8 @@ Thanks so much for reviewing my code! I learned a lot from it. More notes below!
         - Previous message steps will appear
     - ### Expected Result:
         - Message field should be empty
+    - ## Frequency
+        - Consistent
 
 ## Questions/Comments ##
 - Is there a good way to extract an xlmns vlaue from a nested.svg? I had a really hard time figuring out to do that in Cypress which led to a missed opportunity for me to catch the icon

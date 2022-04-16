@@ -8,6 +8,11 @@ describe('QA Webchat Page', () => {
         navigate()
     })
 
+    afterEach(() => {
+        cy.clearLocalStorage()
+        cy.clearCookies()
+    })
+
     it('should verify gandalf text on login', () => {
         verifyGandalfText()
     })
