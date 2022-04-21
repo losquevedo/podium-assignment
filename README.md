@@ -79,6 +79,6 @@ Thanks so much for reviewing my code! I learned a lot from it. More notes below!
         - Consistent
 
 ## Questions/Comments ##
-- Is there a good way to extract an xlmns vlaue from a nested.svg? I had a really hard time figuring out to do that in Cypress which led to a missed opportunity for me to catch the icon bugstat
+- Is there a good way to extract an xlmns vlaue from a nested.svg? I had a really hard time figuring out to do that in Cypress which led to a missed opportunity for me to catch the icon bugs with automation
 
 - One thing I'd build on going from here is adding more custom ids and other identifiers to elements lists, might even include dome [data-cy] tags for easier cypress access but all that requires dev coordination
