@@ -8,7 +8,7 @@ Thanks so much for reviewing my code! I learned a lot from it. More notes below!
 ## Test Case Prioritization Breakdown ##
 **Smoke**
 - Verify Gandalf Text (from Chapter 2 of Fellowship/Moria sequence in the movies)
-- Verify Image URL Lodaed
+- Verify Image URL loaded
 - Verify Messaging Icon is Present
 - Verify User can click on Podium Bubble to see Location Selector
 - Verify User can type in to search box
